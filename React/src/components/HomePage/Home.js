@@ -34,7 +34,7 @@ function Home() {
 }
 
 export default Home;
-=======
+
 import React from "react";
 import { Navbar, Nav, Container, Row, Col} from "react-bootstrap";
 import "./Home.css";

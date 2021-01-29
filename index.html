@@ -15,6 +15,11 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css" />
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
   </head>
@@ -31,19 +36,19 @@
     <div class="collapse navbar-collapse" id="main_nav">
       <ul class="navbar-nav ml-auto mt-md-n1   float-right">
         <li class="nav-item">
-          <a class="nav-link active" href="/">Home</a>
+          <a class="nav-link active" href="index.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/Impacts">About</a>
+          <a class="nav-link" href="about.html">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/About">Impacts</a>
+          <a class="nav-link" href="impacts.html">Impacts</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/Causes">Causes</a>
+          <a class="nav-link" href="causes.html">Causes</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/Contact">Contact</a>
+          <a class="nav-link" href="contact.html">Contact</a>
         </li>
       </ul>
     </div>
@@ -51,10 +56,10 @@
    <!-- ACTUAL NAVIGATION MENU -->
    <ul class="nav__menu" id="menu" tabindex="-1" style="list-style: none;" aria-label="main navigation" hidden>
      <li class="nav__item"><a href="/" class="nav__link">Home</a></li>
-     <li class="nav__item"><a href="/events" class="nav__link">About</a></li>
-     <li class="nav__item"><a href="/blog" class="nav__link">Impacts</a></li>
-     <li class="nav__item"><a href="/webinars" class="nav__link">Causes</a></li>
-     <li class="nav__item"><a href="/projects" class="nav__link">Contact</a></li>
+     <li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
+     <li class="nav__item"><a href="impacts.html" class="nav__link">Impacts</a></li>
+     <li class="nav__item"><a href="causes.html" class="nav__link">Causes</a></li>
+     <li class="nav__item"><a href="contact.html" class="nav__link">Contact</a></li>
    </ul>
 
    <!-- ANIMATED BACKGROUND ELEMENT -->
@@ -104,7 +109,7 @@
 
 
     <!--Middle-Conatiner-->
-    
+
     <div class="container middle-container">
       <div class="row">
           <div class="col-md-6 middle-col-1">
@@ -120,7 +125,7 @@
                   <cite title="Source Title">Source Title</cite>
               </div>
               </div>
-              <img class="col-1-image2" alt=".." src="https://images.pexels.com/photos/942560/pexels-photo-942560.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">   
+              <img class="col-1-image2" alt=".." src="https://images.pexels.com/photos/942560/pexels-photo-942560.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
           </div>
           <div class="col-md-5 middle-col-2">
               <img class="col-2-image "alt="..." src="https://images.pexels.com/photos/3719494/pexels-photo-3719494.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
@@ -205,5 +210,21 @@
       </div>
   </footer>
   <!-- Footer End -->
+
+  <!--JavaScript-->
+
+                <script>
+                    var menuBtn = document.getElementById("menuBtn");
+                    var sideNav = document.getElementById("sideNav");
+
+                    sideNav.style.right = "-250px";
+                    menuBtn.onclick = function() {
+                        if(sideNav.style.right == "-250px") {
+                            sideNav.style.right = "0";
+                        } else {
+                            sideNav.style.right = "-250px";
+                        }
+                    }
+                    </script>
   </body>
 </html>

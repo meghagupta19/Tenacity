@@ -1,0 +1,129 @@
+.images {
+  align-items: center;
+  padding: 30px;
+}
+
+.middle-container {
+  margin: 20px 30px;
+}
+
+.middle-col-1 {
+  position: relative;
+  text-align: left;
+  display: block;
+  height: 1308px;
+  min-height: auto;
+  min-width: auto;
+  max-width: 50%;
+  width: 570px;
+  padding: 0px 15px;
+  transform: none;
+  transition: all 0s ease 0s;
+  box-sizing: border-box;
+}
+
+.middle-col-2 {
+  position: relative;
+  text-align: left;
+  display: block;
+  height: 1308px;
+  min-height: auto;
+  min-width: auto;
+  max-width: 41.6667;
+  width: 475;
+  padding: 0px 15px;
+  transform: none;
+  transition: all 0s ease 0s;
+  box-sizing: border-box;
+}
+
+.col-1-image {
+  position: relative;
+  height: 335px;
+  width: 640px;
+  margin: 0 -100px 0 0;
+  z-index: 1;
+  box-shadow: rgb(0, 0, 0, 0.3) 0px 10px 25px 0px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  box-sizing: border-box;
+  transform: none;
+  transition: all 0s ease 0s;
+}
+
+.image-heading {
+  font-size: 25.55px;
+  line-height: 35.77px;
+  text-align: left;
+  height: 105px;
+  width: 445px;
+  margin: 0 0 30px 0;
+  display: block;
+  transform: none;
+  transition: all 0s ease 0s;
+  box-sizing: border-box;
+}
+
+.col-1-image2 {
+  height: 335px;
+  width: 640px;
+  margin: 420px 0 0 -105px;
+  position: relative;
+  transform: none;
+  transition: all 0s ease 0s;
+  box-sizing: border-box;
+  box-shadow: rgb(0, 0, 0, 0.3) 0px 10px 25px 0px;
+  display: block;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.col-2-image {
+  position: relative;
+  height: 335px;
+  width: 545px;
+  top: 80px;
+  bottom: -80px;
+  z-index: 2;
+  margin: 0 0 130px -100px;
+  box-shadow: rgb(0, 0, 0, 0.3) 0px 10px 25px 0px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  box-sizing: border-box;
+  transform: none;
+  transition: all 0s ease 0s;
+}
+
+.col-1-blockquote {
+  height: 285px;
+  width: 220px;
+  border: 1px solid teal;
+  min-height: 180px;
+  padding: 20px;
+  margin: 0 0 20px 0;
+  position: absolute;
+  top: 376px;
+  bottom: -346px;
+  right: 155px;
+  left: 265px;
+  display: block;
+  z-index: 0;
+  transform: none;
+  transition: all 0s ease 0s;
+  font-size: 15.44px;
+  line-height: 27.72px;
+  text-align: left;
+}
+
+.images-para {
+  font-size: 16.8px;
+  font-weight: 300;
+  text-align: left;
+  height: 216px;
+  width: 445px;
+  margin: 0 0 20px 0;
+  display: block;
+  transform: none;
+  transition: all 0s ease 0s;
+  box-sizing: border-box;
+}

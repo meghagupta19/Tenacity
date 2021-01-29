@@ -1,49 +1,11 @@
+import React from 'react'
+import { Navbar, Nav} from "react-bootstrap";
 
-import React from "react";
-
-import "./Home.css";
-import Header from './Header'
-import Footer from './Footer'
-import Images from './Images'
-import Quotes from './Quotes'
-import DonateNow from './DonateNow'
-import VolunteerNow from './VolunteerNow'
-import MiddleContainer from './MiddleContainer'
-
-
-function Home() {
-  return (
-    <div>
-      
-      <div> <Header/> </div>     
-
-      <div className="section">
-        <Quotes/>
-        <Images/>
-        <MiddleContainer/>
-        <DonateNow/>
-        <VolunteerNow/>
-      </div>
-
-      <div className="footer">
-        <Footer/>
-      </div>
-    </div>
-    
-  );
-}
-
-export default Home;
-
-import React from "react";
-import { Navbar, Nav, Container, Row, Col} from "react-bootstrap";
-import "./Home.css";
-
-function Home() {
-  return (
-    <div>
-      <div className="top">
-        <Navbar collapseOnSelect expand="lg" bg="transparent" variant="dark" fixed="top">
+function Header() {
+    return (
+        <div>
+            <div className="top">
+        <Navbar collapseOnSelect expand="lg" bg="transparent" variant="dark">
           <Navbar.Brand href="#home" classNam="name">Prayaas</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" className="toggle-bar"/>
           <Navbar.Collapse id="responsive-navbar-nav" className="navbg">
@@ -67,17 +29,8 @@ function Home() {
           </p>
         </div>
       </div>
-
-      <div className="footer">
-        <Container>
-          <Row>
-            <Col></Col>
-          </Row>
-        </Container>
-      </div>
-    </div>
-  );
+        </div>
+    )
 }
 
-export default Home;
-
+export default Header

@@ -53,7 +53,6 @@
     "@testing-library/jest-dom": "^5.11.9"
   }
 }
-=======
 {
   "name": "foodblogging",
   "version": "0.1.0",

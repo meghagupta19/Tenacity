@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 body {
     padding-top: 80px;
 }
@@ -89,7 +92,7 @@ body {
 }
 
 .middle-container {
-  margin: 20px 30px;
+  padding: 40px;
 }
 
 .middle-col-1 {
@@ -159,8 +162,8 @@ body {
   box-sizing: border-box;
   box-shadow: rgb(0, 0, 0, 0.3) 0px 10px 25px 0px;
   display: block;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .col-2-image {
@@ -172,8 +175,8 @@ body {
   z-index: 2;
   margin: 0 0 130px -100px;
   box-shadow: rgb(0, 0, 0, 0.3) 0px 10px 25px 0px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   box-sizing: border-box;
   transform: none;
   transition: all 0s ease 0s;

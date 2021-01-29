@@ -18,6 +18,18 @@ body {
     margin: 0;
 }
 
+#menuBtn {
+    width: 50px;
+    position: fixed;
+    right: 65px;
+    top: 35px;
+    z-index: 2;
+    cursor: pointer;
+  }
+
+
+
+
 .bgimg {
   background-size: cover;
   background-position: center;
@@ -67,9 +79,7 @@ body {
 
 #button1{
   margin-left: 200px;
-  
 }
-
 
 /*Styling for middle-conatiner*/
 
@@ -338,7 +348,7 @@ footer>.container>.container>.row {
 
 .feature-title {
     font-size: 1.5rem;
-  
+
 }
 
 .feature-box {

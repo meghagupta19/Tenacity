@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Prayaas</title>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Raahat- Ek Koshish</title>
   <meta name="coverage" content="Worldwide">
   <meta name="distribution" content="Global">
   <meta name="target" content="all">
@@ -11,24 +12,33 @@
   <meta name="og:country-name" content="India">
   <meta name="og:region" content="India" />
   <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="contact.css" />
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-    <!-- Bootstrap Scripts -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+</head>
 
-  </head>
-  <body>
-    <div id="preloader"></div>
+<body>
+  
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-custom-alt" id="webNav">
-    <a class="navbar-brand" href="/"><img class="eventimg" src="https://www.nitj.ac.in/prayaas/New%20folder/prayaas%20logo.png" alt="logo"
-        style="width:auto; height:3.5rem;bottom: 0"></a>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-white fixed-top navbar-custom-alt" id="webNav">
+    <a class="navbar-brand" href="/"><img class="eventimg"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ25x50nwtJU0xyo2h-EMq13GWNfLp2nhGfyQ&usqp=CAU" alt="logo"
+        style="width:200px; height:3.50rem;bottom: 0"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav" aria-expanded="false"
       aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -39,151 +49,249 @@
           <a class="nav-link active" href="index.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
+          <a class="nav-link" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="impacts.html">Impacts</a>
+          <a class="nav-link" href="Impact.html#impact">Impacts</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="causes.html">Causes</a>
+          <a class="nav-link" href="causes.html#causes">Causes</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact.html#contact">Contact</a>
+          <a class="nav-link" href="#contact">Contact</a>
         </li>
       </ul>
     </div>
   </nav>
-   <!-- ACTUAL NAVIGATION MENU -->
-   <ul class="nav__menu" id="menu" tabindex="-1" style="list-style: none;" aria-label="main navigation" hidden>
-     <li class="nav__item"><a href="/" class="nav__link">Home</a></li>
-     <li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
-     <li class="nav__item"><a href="impacts.html" class="nav__link">Impacts</a></li>
-     <li class="nav__item"><a href="causes.html" class="nav__link">Causes</a></li>
-     <li class="nav__item"><a href="contact.html" class="nav__link">Contact</a></li>
-   </ul>
+  <!-- ACTUAL NAVIGATION MENU -->
+  <ul class="nav__menu" id="menu" tabindex="-1" style="list-style: none;" aria-label="main navigation" hidden>
+    <li class="nav__item"><a href="/" class="nav__link">Home</a></li>
+    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+    <li class="nav__item"><a href="Impact.html#impact" class="nav__link">Impacts</a></li>
+    <li class="nav__item"><a href="causes.html#causes" class="nav__link">Causes</a></li>
+    <li class="nav__item"><a href="Index.html#contact" class="nav__link">Contact</a></li>
+  </ul>
 
-   <!-- ANIMATED BACKGROUND ELEMENT -->
-   <div class="splash"></div>
- <!-- Content -->
-  <div>
-    <div class="bgimg" style="background-image: url('https://media.istockphoto.com/photos/group-of-happy-gypsy-indian-children-desert-village-india-picture-id507276910?k=6&m=507276910&s=612x612&w=0&h=L9AM9Kk5VuXL2y5Ys_d_Ec9OA5Gn1wAPDsvyefMPAp0=');">
-      <div class="shade">
-      </div>
+  <!-- ANIMATED BACKGROUND ELEMENT -->
+  <div class="splash"></div>
+  <!-- Content -->
+
+  <div class="bgimg">
+    <video playsinline autoplay muted loop poster="image.png">
+      <!-- Video is embedded in the WEBM format -->
+      <source
+        src="https://player.vimeo.com/external/317887716.sd.mp4?s=15a0a7652fca437e299a82df7e9a43a74d6f2ade&profile_id=164&oauth2_token_id=57447761"
+        type="video/webm"></video>
+
       <!-- Hero -->
       <div class="context col col-sm-12 col-md-12 col-lg-5">
-        <h1 class="heading1">Prayaas- Ek Koshish</h1>
-        <p>At the end of the day it’s not about what you have or even what you’ve accomplished… it’s about who you’ve lifted up, who you’ve made better. It’s about what you’ve given back.</p>
-        <button type="button" id="button1" class="btn btn-danger btn-lg">Join us today</button>
-      </div>
-    </div>
-
-    <!-- Features -->
-
-      <section id="features">
-
-        <div class="container-fluid">
-
-          <div class="row">
-            <div class="feature-box col-lg-4">
-              <i class= "icon fas fa-utensils fa-4x"></i>
-              <h3 class="feature-title">Pure food & water.</h3>
-              <p>Inspires employees and organizations to support causes they care about.</p>
-            </div>
-
-            <div class="feature-box col-lg-4">
-              <i class="icon fas fa-pills fa-4x"></i>
-              <h3 class="feature-title">Medicine</h3>
-              <p>Inspires employees and organizations to support causes they care about.</p>
-            </div>
-
-            <div class="feature-box col-lg-4">
-              <i class="icon fas fa-university fa-4x"></i>
-              <h3 class="feature-title">Education</h3>
-              <p>Inspires employees and organizations to support causes they care about.</p>
-            </div>
-          </div>
-
-
-        </div>
-      </section>
-
-
-    <!--Middle-Conatiner-->
-
-    <div class="container middle-container">
-      <div class="row">
-          <div class="col-md-6 middle-col-1">
-              <img class="col-1-image "alt="..." src="https://images.pexels.com/photos/1667240/pexels-photo-1667240.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
-
-              <div class="col-1-blockquote">
-              <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer posuere erat a ante.
-              </p>
-              <div class="blockquote-footer">
-                  Someone famous in{" "}
-                  <cite title="Source Title">Source Title</cite>
-              </div>
-              </div>
-              <img class="col-1-image2" alt=".." src="https://images.pexels.com/photos/942560/pexels-photo-942560.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
-          </div>
-          <div class="col-md-5 middle-col-2">
-              <img class="col-2-image "alt="..." src="https://images.pexels.com/photos/3719494/pexels-photo-3719494.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
-              <h3 class="image-heading">
-                  So what does the new record for the lowest level of winter ice actually mean
-              </h3>
-              <p class="images-para">
-                  The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever happens with climate change. Even if the Arctic continues to be one of the fastest-warming regions of the world, it will always be plunged into bitterly cold polar dark every winter. And year-by-year, for all kinds of natural reasons, there’s huge variety of the state of the ice.
-              </p>
-              <p class="images-para">
-                  For a start, it does not automatically follow that a record amount of ice will melt this summer. More important for determining the size of the annual thaw is the state of the weather as the midnight sun approaches and temperatures rise. But over the more than 30 years of satellite records, scientists have observed a clear pattern of decline, decade-by-decade.
-              </p>
-              <p class="images-para">
-                  The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever happens with climate change. Even if the Arctic continues to be one of the fastest-warming regions of the world, it will always be plunged into bitterly cold polar dark every winter. And year-by-year, for all kinds of natural reasons, there’s huge variety of the state of the ice.
-              </p>
-          </div>
+        <h1 class="heading1">Raahat- Ek Koshish</h1>
+        <p class="para1">At the end of the day it’s not about what you have or even what you’ve accomplished… it’s about who you’ve
+          lifted up, who you’ve made better. It’s about what you’ve given back.</p>
+        <button type="button" id="button1" class="btn btn-light btn-lg"><a href="causes.html#causes">Join us today</a></button>
       </div>
   </div>
 
+  <!-- Features -->
+
+  <section id="features">
+
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-utensils fa-4x"></i>
+          <h3 class="feature-title">Pure food & water.</h3>
+          <p>Inspires employees and organizations to support causes they care about.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-pills fa-4x"></i>
+          <h3 class="feature-title">Medicine</h3>
+          <p>Inspires employees and organizations to support causes they care about.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-university fa-4x"></i>
+          <h3 class="feature-title">Education</h3>
+          <p>Inspires employees and organizations to support causes they care about.</p>
+          <div id="about"></div>
+        </div>
+      </div>
 
 
-    <!-- Footer -->
+    </div>
+  </section>
+
+
+
+  <!--Middle-Conatiner-->
+
+  <div class="container middle-container">
+    <div class="row">
+      <div class="col-md-6 col-xs-1 middle-col-1">
+        <img class="col-1-image " alt="..." data-aos="zoom-out"
+          src="https://mumbaimirror.indiatimes.com/photo/76977499.cms">
+
+        <div class="col-1-blockquote"data-aos="fade-right"
+         >
+          <p>
+            Remember that the happiest people are not those getting more, but those giving more!
+          </p>
+          <div class="blockquote-footer">
+            H. Jackson Brown Jr.
+
+          </div>
+        </div>
+        <img class="col-1-image2" alt=".."
+          src="https://www.treehugger.com/thmb/oHHZ3Zssj3M6FINijwJcvbAfa2A=/644x364/filters:fill(auto,1)/__opt__aboutcom__coeus__resources__content_migration__mnn__images__2015__03__VanatuDisaster-m-0318-df417c257bb3408eb0ed5c38f0e75934.jpg">
+      </div>
+      <div class="col-md-5 col-xs-1 middle-col-2">
+        <img class="col-2-image " alt="..."
+          src="https://images.pexels.com/photos/3719494/pexels-photo-3719494.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+        <h3 class="image-heading">
+          It is every man’s obligation to put back into the world at least the equivalent of what he takes out of it.
+        </h3>
+        <p class="images-para">
+          Research findings reflect a world in which people of low SES are more vulnerable in the face of disasters
+          and are more likely to suffer more serious consequences during impact, from property damage to
+          homelessness to physical and financial impacts. Disasters can contribute to more adversity for people of
+          low SES than for others who are not low SES—and, as the World Bank and GFDRR report observes, in
+          part due to their financial effects, natural disasters make it more likely that people in poverty will remain in
+          poverty
+        </p>
+        <p class="images-para">
+          First and foremost, when you contribute to a cause you are making the world a better place. Whether you are donating your time,
+          money or expertise, there are recipient(s) benefiting from it. People may go to school because of the scholarship you fund, children
+           may feel supported by the shelter or food they receive, animals may be saved because of the organization you donate too, and society’s
+           carbon footprint may decrease as a result of your research and efforts.
+        </p>
+        <p class="images-para">
+          When you donate your time and money to a cause that is near and dear to your heart, you are giving yourself the opportunity to fuel your passion
+           and spend time doing things you love.By giving your time to a charity, you get the opportunity to build your social circles by working with like-minded
+            people. You may also be able to do something physical, giving you the opportunity to become healthier and happier.
+        </p>
+      </div>
+    </div><div id="contact"></div>
+  </div>
+
+  <!--<section>
+
+    <div class="section-head">
+    <h2 class="section-heading">
+            We serve for people!</h2>
+    </div>
+
+
+    <div class="row causes-row">
+
+      <div class="pricing-column col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400" data-aos-duration="300">
+        <div class="card card-causes">
+          <img
+            src="samiksha.jpeg"
+            alt="child-img1" width="321.781px">
+          <div class="card-body">
+            <h3 class="card mtext">Samiksha Puri</h3>
+              <p><span>Volunteer and Donor</span></p>
+
+
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600" data-aos-duration="300">
+        <div class="card card-causes">
+          <img src="yukt.jpeg" fluid
+            alt="child-img2" width="321.781px">
+          <div class="card-body">
+            <h3 class="card mtext">Yukt Kataria</h3>
+              <p><span>Volunteer and Donor</span></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="800" data-aos-duration="300">
+        <div class="card card-causes">
+          <img width="321.781px"
+            src="megha.jpeg"
+            alt="child-img3">
+          <div class="card-body">
+            <h3 class="card mtext">Megha Gupta</h3>
+            <p><span>Volunteer and Donor</span></p>
+          </div>
+        </div>
+      </div>
+</div>
+</section>-->
+
+ <!--Contact-->
+ <section>
+  <div class="container contact-row">
+      <div class="contact-left-call">
+          <h1 class="heading2">GET IN TOUCH: </h1>
+          <span class="square"></span>
+          <div class="social-media">
+            <a href="mailto: samikshapuri2001@gmail.com">
+             <img src="https://www.google.com/gmail/about/static/images/logo-gmail.png?cache=1adba63">
+              <p class="text">raahatfoundation@gmail.com</p></a>
+          </div>
+          <div class="social-media">
+            <a href="https://www.linkedin.com/in/samiksha-puri-b04849184/">
+              <img src="https://www.cbronline.com/wp-content/uploads/2016/06/linkedin.jpg">              
+              <p class="text">linkedin.com/in/Raahat-b04849184</p></a>
+          </div>
+          <div class="social-media"><a href="https://twitter.com/SamikshaPuri2">             
+          <img src="data:image/png;base64,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">
+            <p class="text">twitter.com/RaahatFoundationOwner</p></a>
+          </div>
+          <div class="line">
+              <span class="line-1"></span>
+              <br>
+              <span class="line-2"></span>
+              <br>
+              <span class="line-3"></span>
+          </div>
+      </div>
+      <div class="contact-right-call">
+          <img src="https://www.festivalofthrift.co.uk/wp-content/uploads/2019/06/touch.png" class="contactimg">
+      </div>
+  </div>
+ </section>
+
+
+  <!-- Footer -->
   <footer>
     <div class="container foot">
       <!-- Logo and Text -->
       <div class="row">
         <a href="/" class="footer-logo">
-          <img src="https://www.nitj.ac.in/prayaas/New%20folder/prayaas%20logo.png" class="footer-img" alt="logo" />
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ25x50nwtJU0xyo2h-EMq13GWNfLp2nhGfyQ&usqp=CAU" class="footer-img" alt="logo" />
         </a>
-        <p class="footer-text">Prayaas is a non-profit organisation that is working for the education of underprivileged children in disaster struck areas, providing skill training and livelihood programs for the deprived communities. ”</p>
+        <p class="footer-text">Raahat is a non-profit organisation that is working for the people in disaster struck areas, providing education , water and livelihood support for the deprived
+          communities and builds a network of some committed volunteers for disaster relief and recovery efforts across India</p>
       </div>
       <!-- Explore Links -->
       <div class="container footer-contain">
         <div class="row">
-          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 footer-col">
+          <div class="col-lg-4 col-md-4  col-sm-4 col-xs-4 footer-col">
             <ul class="footer-list">
-              <li><a href="/">Home</a></li>
-              <li><a href="/About">About</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#about">About</a></li>
             </ul>
           </div>
-          <div class="col-lg-3 col-md-3  col-sm-3 col-xs-3 footer-col">
+          <div class="col-lg-4 col-md-4  col-sm-4 col-xs-4 footer-col">
             <ul class="footer-list">
-              <li><a href="https://medium.com/codechef-nitj">Impacts</a></li>
-              <li><a href="/Causes">Causes</a></li>
+              <li><a href="Impact.html#impact">Impacts</a></li>
+              <li><a href="causes.html#causes">Causes</a></li>
             </ul>
           </div>
-          <div class="col-lg-3 col-md-3  col-sm-3 col-xs-3 footer-col">
+          <div class="col-lg-4 col-md-4  col-sm-4 col-xs-4 footer-col">
             <ul class="footer-list">
-              <li><a href="/Contacts">Contacts</a></li>
-              <li><a href="/">Volunteer</a></li>
+              <li><a href="Index.html#contact">Contact</a></li>
+              <li><a href="causes.html#causes">Donate</a></li>
             </ul>
           </div>
-          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 footer-col">
-            <ul class="footer-list">
-              <li><a href="/">Donor</a></li>
-              <li><a href="#toast" id="toast">App</a></li>
-            </ul>
-          </div>
+          
         </div>
       </div>
       <!-- HR -->
@@ -192,17 +300,17 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-md-6 legend">
-            <p style="width: 500px; color: #fff;">&#169; Copyright 2021 | Prayaas | All rights reserved. </p>
+            <p style="width: 500px; color: #fff;">&#169; Copyright 2021 | Raahat | All rights reserved. </p>
           </div>
           <div class="col-lg-4 col-md-6 ">
             <ul class="social">
 
-              <li><a href="https://www.facebook.com/prayaasnitj" target="_blank"><i
+              <li><a href="https://www.facebook.com/" target="_blank"><i
                     class="fab fa-facebook-f footer-icon"></i></a></li>
-              <li><a href="https://instagram.com/prayaas_nitj?igshid=31dqnfjtd0r4" target="_blank"><i
+              <li><a href="https://www.instagram.com/?hl=en" target="_blank"><i
                     class="fab fa-instagram footer-icon"></i></a></li>
 
-              <li><a href="https://www.linkedin.com/company/prayaas-nitj/" target="_blank"><i
+              <li><a href="https://www.linkedin.com/" target="_blank"><i
                     class="fab fa-linkedin-in footer-icon"></i></a></li>
             </ul>
           </div>
@@ -211,20 +319,12 @@
   </footer>
   <!-- Footer End -->
 
-  <!--JavaScript-->
 
-                <script>
-                    var menuBtn = document.getElementById("menuBtn");
-                    var sideNav = document.getElementById("sideNav");
+</body>
 
-                    sideNav.style.right = "-250px";
-                    menuBtn.onclick = function() {
-                        if(sideNav.style.right == "-250px") {
-                            sideNav.style.right = "0";
-                        } else {
-                            sideNav.style.right = "-250px";
-                        }
-                    }
-                    </script>
-  </body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
 </html>

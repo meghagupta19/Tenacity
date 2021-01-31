@@ -1,0 +1,21 @@
+{
+  "name": "disaster_app_hackmol",
+  "version": "1.0.0",
+  "description": "A web app for helping people who suffered in Natural Disasters",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yukt",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.2",
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.14",
+    "paytm-pg-node-sdk": "^1.0.4",
+    "paytmchecksum": "^1.5.0",
+    "sendgrid": "^5.2.3"
+  }
+}
